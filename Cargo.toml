@@ -2,7 +2,11 @@
 name = "index_queue"
 version = "0.1.0"
 authors = ["Phil Ruffwind <rf@rufflewind.com>"]
+description = "A queue for unique indices with constant-time query and removal"
 documentation = "https://docs.rs/index_queue"
 repository = "https://github.com/Rufflewind/index_queue"
+readme = "README.md"
+keywords = ["index", "list", "queue"]
+categories = ["data-structures"]
 license = "MIT/Apache-2.0"
-exclude = [".gitignore", "README.md"]
+exclude = [".gitignore"]
