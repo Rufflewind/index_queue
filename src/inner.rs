@@ -28,7 +28,7 @@ impl Default for Slot {
 
 impl From<Link> for Slot {
     fn from(value: Link) -> Self {
-        debug_assert!(value.prev != INVALID_INDEX);
+        debug_assert_ne!(value.prev, INVALID_INDEX);
         Slot(value)
     }
 }
